@@ -81,7 +81,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 margin: const EdgeInsets.only(top: 9),
                 child: const Text(
                   StringConstants.forgotPassword,
-                  style: TextStyles.textStyleFont12Weight400,
+                  style: TextStyles.textStyleFont14Weight400,
                 ),
               ),
               ButtonWidget(

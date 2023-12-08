@@ -66,6 +66,15 @@ flutter:
     - assets/images/drawer.png
     - assets/images/profile.png
     - assets/images/logo.png
+    - assets/images/sort.png
+    - assets/images/filter.png
+    - assets/images/beauty.png
+    - assets/images/fashion.png
+    - assets/images/kids.png
+    - assets/images/mens.png
+    - assets/images/womens.png
+    - assets/images/template.png
+    - assets/images/scroll.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

@@ -15,14 +15,14 @@ class TextStyles {
     fontFamily: StringConstants.fontFamilyMontserrat,
     color: ColorConstants.grey676767,
   );
-  static const TextStyle textStyleFont12Weight400 = TextStyle(
+  static const TextStyle textStyleFont14Weight400 = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w400,
     fontFamily: StringConstants.fontFamilyMontserrat,
     color: ColorConstants.red,
   );
-  static const TextStyle textStyleFont14Weight400 = TextStyle(
-    fontSize: 14,
+  static const TextStyle textStyleFont16Weight400 = TextStyle(
+    fontSize: 16,
     fontWeight: FontWeight.w400,
     fontFamily: StringConstants.fontFamilyMontserrat,
     color: ColorConstants.grey676767,

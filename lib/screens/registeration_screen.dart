@@ -131,7 +131,7 @@ class _RegisterationScreenState extends State<RegisterationScreen> {
                     text: TextSpan(children: [
                   TextSpan(
                     text: StringConstants.clickRegister1,
-                    style: TextStyles.textStyleFont12Weight400
+                    style: TextStyles.textStyleFont14Weight400
                         .copyWith(color: ColorConstants.grey676767),
                   ),
                   const WidgetSpan(
@@ -140,7 +140,7 @@ class _RegisterationScreenState extends State<RegisterationScreen> {
                   )),
                   TextSpan(
                       text: StringConstants.register,
-                      style: TextStyles.textStyleFont12Weight400
+                      style: TextStyles.textStyleFont14Weight400
                           .copyWith(color: ColorConstants.red),
                       recognizer: TapGestureRecognizer()
                         ..onTap = () {
@@ -152,7 +152,7 @@ class _RegisterationScreenState extends State<RegisterationScreen> {
                   )),
                   TextSpan(
                     text: StringConstants.clickRegister2,
-                    style: TextStyles.textStyleFont12Weight400
+                    style: TextStyles.textStyleFont14Weight400
                         .copyWith(color: ColorConstants.grey575757),
                   )
                 ])),
