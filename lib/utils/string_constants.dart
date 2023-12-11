@@ -32,4 +32,10 @@ class StringConstants {
   static const deal = "Deal of the Day";
   static const remaining = "22h 55m 20s remaining";
   static const view = "View all";
+  static const womenPrinted = "Women Printed Kurta";
+  static const String hrx = "HRX by Hrithik Roshan";
+  static const String description =
+      "Neque porro quisquam est qui dolorem ipsum quia";
+  static const String special = "Special Offers 😱";
+  static const String offer = "We make sure you get the offer you need at the best price";
 }

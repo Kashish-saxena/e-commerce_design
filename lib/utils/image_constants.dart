@@ -13,5 +13,11 @@ class ImageConstants {
   static const String mens = "assets/images/mens.png";
   static const String womens = "assets/images/womens.png";
   static const String template = "assets/images/template.png";
-    static const String scroll = "assets/images/scroll.png";
+  static const String scroll = "assets/images/scroll.png";
+  static const String kurta = "assets/images/kurta.png";
+  static const String shoes = "assets/images/shoes.png";
+  static const String star = "assets/images/star.png";
+  static const String halfStar = "assets/images/half_star.png";
+  static const String offer = "assets/images/offer.png";
+  static const String heels = "assets/images/heels.png";
 }

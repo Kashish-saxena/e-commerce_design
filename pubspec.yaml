@@ -75,6 +75,12 @@ flutter:
     - assets/images/womens.png
     - assets/images/template.png
     - assets/images/scroll.png
+    - assets/images/kurta.png
+    - assets/images/shoes.png
+    - assets/images/star.png
+    - assets/images/half_star.png
+    - assets/images/offer.png
+    - assets/images/heels.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
