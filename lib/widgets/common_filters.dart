@@ -4,16 +4,11 @@ import 'package:flutter/material.dart';
 import '../utils/color_constants.dart';
 import '../utils/text_styles.dart';
 
-class FilterWidget extends StatefulWidget {
+class FilterWidget extends StatelessWidget {
   final String text;
   final String image;
   const FilterWidget({super.key, required this.text, required this.image});
 
-  @override
-  State<FilterWidget> createState() => _FilterWidgetState();
-}
-
-class _FilterWidgetState extends State<FilterWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -31,12 +26,12 @@ class _FilterWidgetState extends State<FilterWidget> {
       child: Row(
         children: [
           Text(
-            widget.text,
+            text,
             style: TextStyles.textStyleFont12Weight500
                 .copyWith(color: ColorConstants.black),
           ),
           Image.asset(
-            widget.image,
+            image,
             color: ColorConstants.black,
           ),
         ],

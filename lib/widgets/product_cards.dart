@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:login_registeration_design/models/products.dart';
 import 'package:login_registeration_design/utils/color_constants.dart';
-import 'package:login_registeration_design/utils/string_constants.dart';
 import 'package:login_registeration_design/utils/text_styles.dart';
 
 import '../utils/image_constants.dart';
 
-class ProductCardsWidget extends StatefulWidget {
+class ProductCardsWidget extends StatelessWidget {
   final String image;
   final String title;
   final String description;
@@ -23,11 +21,6 @@ class ProductCardsWidget extends StatefulWidget {
       required this.image});
 
   @override
-  State<ProductCardsWidget> createState() => _ProductCardsWidgetState();
-}
-
-class _ProductCardsWidgetState extends State<ProductCardsWidget> {
-  @override
   Widget build(BuildContext context) {
     return Container(
       clipBehavior: Clip.antiAlias,
@@ -43,27 +36,35 @@ class _ProductCardsWidgetState extends State<ProductCardsWidget> {
               blurRadius: 6,
             )
           ]),
-      
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.asset(
-            widget.image,
+            image,
             fit: BoxFit.fill,
           ),
-          Text(widget.title,
+          Text(title,
               style: TextStyles.textStyleFont12Weight500
                   .copyWith(color: ColorConstants.black)),
           RichText(
               text: WidgetSpan(
-            child: Text(widget.description),
+            child: Text(description),
           )),
-          Text(widget.price),
+          Text(price),
           Row(
             children: [
-              Text(widget.orignalPrice,style: TextStyles.textStyleFont14Weight400.copyWith(color: ColorConstants.greyBBBBBB,decoration: TextDecoration.lineThrough,decorationColor: ColorConstants.greyBBBBBB)),
-              const SizedBox(width: 5,),
-              Text(widget.off,style: TextStyles.textStyleFont14Weight400,),
+              Text(orignalPrice,
+                  style: TextStyles.textStyleFont14Weight400.copyWith(
+                      color: ColorConstants.greyBBBBBB,
+                      decoration: TextDecoration.lineThrough,
+                      decorationColor: ColorConstants.greyBBBBBB)),
+              const SizedBox(
+                width: 5,
+              ),
+              Text(
+                off,
+                style: TextStyles.textStyleFont14Weight400,
+              ),
             ],
           ),
           Row(

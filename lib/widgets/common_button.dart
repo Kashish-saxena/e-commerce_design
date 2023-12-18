@@ -3,16 +3,11 @@ import 'package:flutter/material.dart';
 import '../utils/color_constants.dart';
 import '../utils/text_styles.dart';
 
-class ButtonWidget extends StatefulWidget {
+class ButtonWidget extends StatelessWidget {
   final String text;
   final Function onPressed;
   const ButtonWidget({super.key, required this.text, required this.onPressed});
 
-  @override
-  State<ButtonWidget> createState() => _ButtonWidgetState();
-}
-
-class _ButtonWidgetState extends State<ButtonWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -28,9 +23,9 @@ class _ButtonWidgetState extends State<ButtonWidget> {
           ),
         ),
         onPressed: () {
-          widget.onPressed();
+          onPressed();
         },
-        child: Text(widget.text, style: TextStyles.textStyleFont20Weight600),
+        child: Text(text, style: TextStyles.textStyleFont20Weight600),
       ),
     );
   }

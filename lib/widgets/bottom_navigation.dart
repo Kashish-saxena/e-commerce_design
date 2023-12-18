@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:login_registeration_design/utils/color_constants.dart';
 
-class BottomNavigationWidget extends StatefulWidget {
+class BottomNavigationWidget extends StatelessWidget {
   const BottomNavigationWidget({super.key});
 
-  @override
-  State<BottomNavigationWidget> createState() => _BottomNavigationWidgetState();
-}
-
-class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(

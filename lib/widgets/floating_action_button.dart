@@ -1,16 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:login_registeration_design/utils/color_constants.dart';
 
-class FloatingActionButtonWidget extends StatefulWidget {
+class FloatingActionButtonWidget extends StatelessWidget {
   const FloatingActionButtonWidget({super.key});
 
-  @override
-  State<FloatingActionButtonWidget> createState() =>
-      _FloatingActionButtonWidgetState();
-}
-
-class _FloatingActionButtonWidgetState
-    extends State<FloatingActionButtonWidget> {
   @override
   Widget build(BuildContext context) {
     return FloatingActionButton(

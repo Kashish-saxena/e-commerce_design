@@ -2,15 +2,10 @@ import 'package:flutter/material.dart';
 
 import '../utils/color_constants.dart';
 
-class IconButtonWidget extends StatefulWidget {
+class IconButtonWidget extends StatelessWidget {
   final String image;
   const IconButtonWidget({super.key, required this.image});
 
-  @override
-  State<IconButtonWidget> createState() => _IconButtonWidgetState();
-}
-
-class _IconButtonWidgetState extends State<IconButtonWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -27,7 +22,7 @@ class _IconButtonWidgetState extends State<IconButtonWidget> {
         ),
         onPressed: () {},
         child: Image.asset(
-          widget.image,
+          image,
         ),
       ),
     );

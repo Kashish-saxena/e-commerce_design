@@ -4,14 +4,9 @@ import '../utils/color_constants.dart';
 import '../utils/string_constants.dart';
 import '../utils/text_styles.dart';
 
-class DealOfTheDayWidget extends StatefulWidget {
+class DealOfTheDayWidget extends StatelessWidget {
   const DealOfTheDayWidget({super.key});
 
-  @override
-  State<DealOfTheDayWidget> createState() => _DealOfTheDayWidgetState();
-}
-
-class _DealOfTheDayWidgetState extends State<DealOfTheDayWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
